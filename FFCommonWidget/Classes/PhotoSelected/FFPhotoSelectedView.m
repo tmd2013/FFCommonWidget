@@ -52,7 +52,8 @@
     [self addSubview:collectionView];
     self.collectionView = collectionView;
 
-    [collectionView registerNib:[UINib nibWithNibName:@"FFSelectPhotoCell" bundle:nil] forCellWithReuseIdentifier:@"FFSelectPhotoCell"];
+    NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
+    [collectionView registerNib:[UINib nibWithNibName:@"FFSelectPhotoCell" bundle:currentBundle] forCellWithReuseIdentifier:@"FFSelectPhotoCell"];
     
     if (self.images == nil) {
         self.images = [NSMutableArray array];

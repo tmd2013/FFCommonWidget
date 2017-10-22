@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFCommonWidget'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '照片选择'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-增加照片选择的小组件
+增加照片选择的小组件 bug修改
                        DESC
 
   s.homepage         = 'https://github.com/tmd2013/FFCommonWidget'
