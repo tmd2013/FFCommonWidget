@@ -8,7 +8,7 @@
 
 #import "FFPhotoSelectedView.h"
 #import "FFSelectPhotoCell.h"
-#import "FFDefine.h"
+
 #import "FFSelectPhotoConst.h"
 
 @interface FFPhotoSelectedView ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,FFSelectPhotoDelegate>
@@ -164,7 +164,7 @@
     }
     _currImgCount = self.maxCount - count;
     
-    NSLog(@"images = %ld, currImgCount = %ld",self.images.count,_currImgCount);
+//    NSLog(@"images = %ld, currImgCount = %ld",self.images.count,_currImgCount);
     
 }
 
