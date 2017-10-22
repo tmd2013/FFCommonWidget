@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFCommonWidget'
-  s.version          = '0.1.0'
-  s.summary          = '测试'
+  s.version          = '0.1.1'
+  s.summary          = '照片选择'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-只是一个测试版本
+增加照片选择的小组件
                        DESC
 
   s.homepage         = 'https://github.com/tmd2013/FFCommonWidget'
@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'FFCommonWidget/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'FFCommonWidget' => ['FFCommonWidget/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'FFCommonWidget' => ['FFCommonWidget/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
