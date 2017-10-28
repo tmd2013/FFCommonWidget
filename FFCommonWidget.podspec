@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFCommonWidget'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = '选择照片'
 
 # This description is used to generate tags and improve search results.
@@ -33,6 +33,7 @@ Pod::Spec.new do |s|
   # s.source_files = 'FFCommonWidget/Classes/**/*'
   s.subspec 'FFPhotoSelected' do |p|
         p.source_files = 'FFCommonWidget/Classes/FFPhotoSelected/**/*'
+        p.resources = "FFCommonWidget/Classes/FFPhotoSelected/*.{xib}"
     end
   
   s.resource_bundles = {
