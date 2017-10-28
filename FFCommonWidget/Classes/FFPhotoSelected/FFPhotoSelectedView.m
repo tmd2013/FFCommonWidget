@@ -8,7 +8,6 @@
 
 #import "FFPhotoSelectedView.h"
 #import "FFSelectPhotoCell.h"
-
 #import "FFSelectPhotoConst.h"
 
 @interface FFPhotoSelectedView ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,FFSelectPhotoDelegate>
@@ -39,7 +38,7 @@
 #pragma mark - 设置ui
 - (void)setupUI
 {
-    NSLog(@"%@",NSStringFromCGRect(self.frame));
+//    NSLog(@"%@",NSStringFromCGRect(self.frame));
     [self layoutIfNeeded];
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
     flowLayout.itemSize = CGSizeMake(([UIScreen mainScreen].bounds.size.width - 30) / 2, 200);
@@ -52,8 +51,7 @@
     [self addSubview:collectionView];
     self.collectionView = collectionView;
 
-    NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-    [collectionView registerNib:[UINib nibWithNibName:@"FFSelectPhotoCell" bundle:currentBundle] forCellWithReuseIdentifier:@"FFSelectPhotoCell"];
+    [collectionView registerNib:[UINib nibWithNibName:@"FFSelectPhotoCell" bundle:[NSBundle bundleForClass:[self class]]] forCellWithReuseIdentifier:@"FFSelectPhotoCell"];
     
     if (self.images == nil) {
         self.images = [NSMutableArray array];
@@ -71,14 +69,15 @@
 - (FFSelectPhotoModel *)getDefaultPhotoModel
 {
     FFSelectPhotoModel *selPhotoModel = [[FFSelectPhotoModel alloc]init];
-    selPhotoModel.selImg = SelectPhotoDefaultImage;
+    NSBundle *currBundle = [NSBundle bundleForClass:[self class]];
+    NSString *imagePath = [currBundle pathForResource:@"gaga_uploadPhoto@2x.png" ofType:nil inDirectory:@"FFCommonWidget.bundle"];
+    selPhotoModel.selImg = [UIImage imageWithContentsOfFile:imagePath];
     selPhotoModel.hiddenCloseBtn = YES;
     selPhotoModel.operate = FFPhotoOperateOpenPhotoAlbum;
     return selPhotoModel;
 }
 
 #pragma mark - 设置数据
-
 
 #pragma mark - 注册通知和实现
 - (void)vcRegistNotific

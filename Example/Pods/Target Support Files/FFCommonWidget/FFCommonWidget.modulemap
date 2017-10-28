@@ -1,0 +1,6 @@
+framework module FFCommonWidget {
+  umbrella header "FFCommonWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}

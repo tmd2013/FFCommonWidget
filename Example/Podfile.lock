@@ -1,0 +1,16 @@
+PODS:
+  - FFCommonWidget (0.1.0)
+
+DEPENDENCIES:
+  - FFCommonWidget (from `../`)
+
+EXTERNAL SOURCES:
+  FFCommonWidget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FFCommonWidget: e9ca4b753d661b20377a233009c430ef6833c50f
+
+PODFILE CHECKSUM: e4d86b4db97c523c0303ac551472b95685c131a6
+
+COCOAPODS: 1.2.0
