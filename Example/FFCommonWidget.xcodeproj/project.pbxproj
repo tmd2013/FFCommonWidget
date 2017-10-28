@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CCFB0CD1FA4CEBD008353E6 /* FF_aaaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCFB0CB1FA4CEBD008353E6 /* FF_aaaViewController.m */; };
+		3CCFB0CE1FA4CEBD008353E6 /* FF_aaaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CCFB0CC1FA4CEBD008353E6 /* FF_aaaViewController.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,8 +40,11 @@
 
 /* Begin PBXFileReference section */
 		0859A346A7FD8DB033D40585 /* Pods_FFCommonWidget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFCommonWidget_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		259BB9A7994F5814161D9829 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		47E6D74AFD22FC70EBFA4915 /* FFCommonWidget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFCommonWidget.podspec; path = ../FFCommonWidget.podspec; sourceTree = "<group>"; };
+		259BB9A7994F5814161D9829 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3CCFB0CA1FA4CEBD008353E6 /* FF_aaaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FF_aaaViewController.h; sourceTree = "<group>"; };
+		3CCFB0CB1FA4CEBD008353E6 /* FF_aaaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FF_aaaViewController.m; sourceTree = "<group>"; };
+		3CCFB0CC1FA4CEBD008353E6 /* FF_aaaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FF_aaaViewController.xib; sourceTree = "<group>"; };
+		47E6D74AFD22FC70EBFA4915 /* FFCommonWidget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFCommonWidget.podspec; path = ../FFCommonWidget.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FFCommonWidget_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFCommonWidget_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +69,7 @@
 		828756DBD06728AE445E0FAF /* Pods-FFCommonWidget_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCommonWidget_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFCommonWidget_Example/Pods-FFCommonWidget_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		846BF20F153316692A6177C8 /* Pods-FFCommonWidget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCommonWidget_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFCommonWidget_Tests/Pods-FFCommonWidget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AD54E43625A2495911724807 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AD54E43625A2495911724807 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BC932E82AA5DB5ED2102CC50 /* Pods-FFCommonWidget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCommonWidget_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFCommonWidget_Example/Pods-FFCommonWidget_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C38AE53AFC681FF0EF5A271C /* Pods-FFCommonWidget_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCommonWidget_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFCommonWidget_Tests/Pods-FFCommonWidget_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +156,9 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				3CCFB0CA1FA4CEBD008353E6 /* FF_aaaViewController.h */,
+				3CCFB0CB1FA4CEBD008353E6 /* FF_aaaViewController.m */,
+				3CCFB0CC1FA4CEBD008353E6 /* FF_aaaViewController.xib */,
 			);
 			name = "Example for FFCommonWidget";
 			path = FFCommonWidget;
@@ -282,6 +290,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				3CCFB0CE1FA4CEBD008353E6 /* FF_aaaViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +405,7 @@
 			files = (
 				6003F59E195388D20070C39A /* FF_AppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FF_ViewController.m in Sources */,
+				3CCFB0CD1FA4CEBD008353E6 /* FF_aaaViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

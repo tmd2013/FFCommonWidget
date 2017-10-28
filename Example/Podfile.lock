@@ -1,5 +1,7 @@
 PODS:
-  - FFCommonWidget (0.1.0)
+  - FFCommonWidget (0.1.6):
+    - FFCommonWidget/FFPhotoSelected (= 0.1.6)
+  - FFCommonWidget/FFPhotoSelected (0.1.6)
 
 DEPENDENCIES:
   - FFCommonWidget (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFCommonWidget: e9ca4b753d661b20377a233009c430ef6833c50f
+  FFCommonWidget: 827207fbb6c0fb5430609369921eea5ca12a3931
 
 PODFILE CHECKSUM: e4d86b4db97c523c0303ac551472b95685c131a6
 

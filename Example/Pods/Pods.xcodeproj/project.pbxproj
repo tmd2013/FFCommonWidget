@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		044BB211B6D80EAA36D87D10FDF50CAA /* gaga_uploadPhoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 399E6475456D7AB1CFCD4033F716999E /* gaga_uploadPhoto@3x.png */; };
-		054A2CA6E3E105B312D7FDBF6ECD7419 /* FFSelectPhotoConst.h in Headers */ = {isa = PBXBuildFile; fileRef = D006A6B3894E4DD77F47F39A9059ED8B /* FFSelectPhotoConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31C1ECC63B063C54BD1A03E0567DC3A0 /* FFCommonWidget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D4A90522C14EC484A231245D73713D /* FFCommonWidget-dummy.m */; };
-		45F86B6E50DB53B8E46F5F0C511D1430 /* gaga_uploadPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D55DED12720A90123CA40266262436 /* gaga_uploadPhoto.png */; };
+		044BB211B6D80EAA36D87D10FDF50CAA /* gaga_uploadPhoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308AA5608A7D53498E602C548454B68F /* gaga_uploadPhoto@3x.png */; };
+		054A2CA6E3E105B312D7FDBF6ECD7419 /* FFSelectPhotoConst.h in Headers */ = {isa = PBXBuildFile; fileRef = EE622366FB42DAC6CDE75AF8F91FDD99 /* FFSelectPhotoConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31C1ECC63B063C54BD1A03E0567DC3A0 /* FFCommonWidget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB8889934AF40D5CD8A0D7F12E2DB2 /* FFCommonWidget-dummy.m */; };
+		45F86B6E50DB53B8E46F5F0C511D1430 /* gaga_uploadPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ACB3C6B98B2057463FF349D36E3D2 /* gaga_uploadPhoto.png */; };
 		59BDEA123F76EDA19D73026C3024CF62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		69B804891D9018E799D6752F64464515 /* FFPhotoSelectedView.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD1898724408BCE3A81C7CFF85EB4EC /* FFPhotoSelectedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7568A564074A19F66D36FFAB79CDAFFC /* gaga_uploadPhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70288CAECB6C73A17F91BA9A8F99D70B /* gaga_uploadPhoto@2x.png */; };
+		69B804891D9018E799D6752F64464515 /* FFPhotoSelectedView.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BF8AF303ACB6C49C75C5BD654ABD22 /* FFPhotoSelectedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7568A564074A19F66D36FFAB79CDAFFC /* gaga_uploadPhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE87E455FA2F4178DA8BAA18A65C5A2 /* gaga_uploadPhoto@2x.png */; };
 		8532F132EC0DAF12D624D1DE0422E3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		90C3FE68A371B36ABF9E7CBE9D1660AE /* Pods-FFCommonWidget_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24EE2A6F358C85A7FDBA661E205B5A7F /* Pods-FFCommonWidget_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93D86E70F56BF202AE4BACE0794F0A2A /* FFSelectPhotoCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9E23421A4D3E826AC5D9B99EF13DBF06 /* FFSelectPhotoCell.xib */; };
-		99E0248FF4B45EAB2E6AEED453D88147 /* FFCommonWidget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DEF75119FDEB06B1E62D95DAB933899 /* FFCommonWidget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CD7BF583F5E9AD53D38F4B0C307FF98 /* FFSelectPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A2F55F144A445600377CE44CFF7EED /* FFSelectPhotoCell.m */; };
-		ABF8522485F2DF5B56130C71A6349B9B /* FFSelectPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8507C426CA27F86C8840C8FDC70DC8A /* FFSelectPhotoModel.m */; };
-		AC1E60856D74D9E64119682243283763 /* FFSelectPhotoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D9302236A7B9F9B4EB7EECC0B4EAD517 /* FFSelectPhotoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA39E7FB22FF7424665FF135C62106C5 /* FFSelectPhotoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BA9BC1C05404369AD6A1B678F2CA05 /* FFSelectPhotoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D86E70F56BF202AE4BACE0794F0A2A /* FFSelectPhotoCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3AA58634A1EFD2C1A48EBA7439DF2A4A /* FFSelectPhotoCell.xib */; };
+		99E0248FF4B45EAB2E6AEED453D88147 /* FFCommonWidget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5340CB50130AE10BD13ACD01E7D3A43E /* FFCommonWidget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CD7BF583F5E9AD53D38F4B0C307FF98 /* FFSelectPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEE864398E2D1663833011DEFCC128 /* FFSelectPhotoCell.m */; };
+		ABF8522485F2DF5B56130C71A6349B9B /* FFSelectPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B07D7EE27CE6B6B5A799A7A9A9870E3C /* FFSelectPhotoModel.m */; };
+		AC1E60856D74D9E64119682243283763 /* FFSelectPhotoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA29A7A1FBC56B888387DAE97660F6A /* FFSelectPhotoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA39E7FB22FF7424665FF135C62106C5 /* FFSelectPhotoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 644C0A808AA1412C042871449F77F8C5 /* FFSelectPhotoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C82F0E9C2304FD155F471BD945052620 /* Pods-FFCommonWidget_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE92B91F278C993B2CC02912860EFBF /* Pods-FFCommonWidget_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D102298458E0EEAD690DB5C6A5FB77CA /* FFCommonWidget.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24430CD9B81422D18758921401DBD35C /* FFCommonWidget.bundle */; };
 		DB0FBC90AB2F3FA39C9DA0129522603D /* Pods-FFCommonWidget_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E62F2C8BF1DB590A8DE557CA3485F4E2 /* Pods-FFCommonWidget_Tests-dummy.m */; };
 		E70431AB827165D4F1146CA518B887B7 /* Pods-FFCommonWidget_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC480088EF40A3F59CCA1C048D3CBA5 /* Pods-FFCommonWidget_Example-dummy.m */; };
 		FB657C11DA474153244F8EE077066F16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		FD0DEDBE707FA1AA12B0DC5794CE203B /* FFPhotoSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7905B4A8A13138964B5C496AD920D422 /* FFPhotoSelectedView.m */; };
+		FD0DEDBE707FA1AA12B0DC5794CE203B /* FFPhotoSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C55555A51725A2316CF884F3EE514F29 /* FFPhotoSelectedView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,48 +50,48 @@
 /* Begin PBXFileReference section */
 		08664E200D6F57A0F3C3161C2398A264 /* FFCommonWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFCommonWidget.framework; path = FFCommonWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A608EE2CD3825A650D96BC2E848E58 /* Pods-FFCommonWidget_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFCommonWidget_Example-resources.sh"; sourceTree = "<group>"; };
+		0EE87E455FA2F4178DA8BAA18A65C5A2 /* gaga_uploadPhoto@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "gaga_uploadPhoto@2x.png"; sourceTree = "<group>"; };
 		126DD29C66683F7CEA9A020CADCB96D6 /* Pods-FFCommonWidget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFCommonWidget_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1CC480088EF40A3F59CCA1C048D3CBA5 /* Pods-FFCommonWidget_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFCommonWidget_Example-dummy.m"; sourceTree = "<group>"; };
 		22415B6C0E55E0F89533395FAF17EC00 /* Pods-FFCommonWidget_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFCommonWidget_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		23B6715F1CD900AE6D5747C9F6C0A367 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24430CD9B81422D18758921401DBD35C /* FFCommonWidget.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FFCommonWidget.bundle; path = FFCommonWidget.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EE2A6F358C85A7FDBA661E205B5A7F /* Pods-FFCommonWidget_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFCommonWidget_Example-umbrella.h"; sourceTree = "<group>"; };
-		27562235521EF6731DCE4670E7BF0385 /* ResourceBundle-FFCommonWidget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FFCommonWidget-Info.plist"; sourceTree = "<group>"; };
 		2BF3EAD6B0028D1EF608CEC4713051B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C6C01E0A43C4D3D37D1F4504D6EBBCA /* Pods-FFCommonWidget_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFCommonWidget_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2F1C17918FA81C0373E20ACF8F0AF077 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FAEE864398E2D1663833011DEFCC128 /* FFSelectPhotoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FFSelectPhotoCell.m; sourceTree = "<group>"; };
+		308AA5608A7D53498E602C548454B68F /* gaga_uploadPhoto@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "gaga_uploadPhoto@3x.png"; sourceTree = "<group>"; };
 		3273C11EA814A16D20E457517822B16D /* Pods-FFCommonWidget_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFCommonWidget_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		33D1F0F8F2817C6885B4920A4B2EDFE4 /* FFCommonWidget.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFCommonWidget.xcconfig; sourceTree = "<group>"; };
-		37D55DED12720A90123CA40266262436 /* gaga_uploadPhoto.png */ = {isa = PBXFileReference; includeInIndex = 1; path = gaga_uploadPhoto.png; sourceTree = "<group>"; };
-		399E6475456D7AB1CFCD4033F716999E /* gaga_uploadPhoto@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "gaga_uploadPhoto@3x.png"; sourceTree = "<group>"; };
 		3A5CAE110D9527DA69B5ABB84224A1BE /* Pods-FFCommonWidget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFCommonWidget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AA58634A1EFD2C1A48EBA7439DF2A4A /* FFSelectPhotoCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = FFSelectPhotoCell.xib; sourceTree = "<group>"; };
+		3C7ACB3C6B98B2057463FF349D36E3D2 /* gaga_uploadPhoto.png */ = {isa = PBXFileReference; includeInIndex = 1; path = gaga_uploadPhoto.png; sourceTree = "<group>"; };
 		4ACE755DF353DF7CD9B4C8EA706F3CE4 /* Pods_FFCommonWidget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFCommonWidget_Tests.framework; path = "Pods-FFCommonWidget_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2D70CA6495F8B1D3EF93182F13ED7B /* Pods-FFCommonWidget_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFCommonWidget_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5340CB50130AE10BD13ACD01E7D3A43E /* FFCommonWidget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFCommonWidget-umbrella.h"; sourceTree = "<group>"; };
 		5DA396BFF785004C0BE61CC8F1F9680C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DCB8889934AF40D5CD8A0D7F12E2DB2 /* FFCommonWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFCommonWidget-dummy.m"; sourceTree = "<group>"; };
 		62C822CD4D5589D1FE6C2DD8A2B35DE2 /* Pods-FFCommonWidget_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FFCommonWidget_Example.modulemap"; sourceTree = "<group>"; };
-		67A2F55F144A445600377CE44CFF7EED /* FFSelectPhotoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FFSelectPhotoCell.m; sourceTree = "<group>"; };
-		6DEF75119FDEB06B1E62D95DAB933899 /* FFCommonWidget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFCommonWidget-umbrella.h"; sourceTree = "<group>"; };
-		70288CAECB6C73A17F91BA9A8F99D70B /* gaga_uploadPhoto@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "gaga_uploadPhoto@2x.png"; sourceTree = "<group>"; };
-		7905B4A8A13138964B5C496AD920D422 /* FFPhotoSelectedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FFPhotoSelectedView.m; sourceTree = "<group>"; };
+		644C0A808AA1412C042871449F77F8C5 /* FFSelectPhotoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFSelectPhotoModel.h; sourceTree = "<group>"; };
+		64BF6300B7E037A7772368CA83556420 /* FFCommonWidget-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFCommonWidget-prefix.pch"; sourceTree = "<group>"; };
 		8BE92B91F278C993B2CC02912860EFBF /* Pods-FFCommonWidget_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFCommonWidget_Tests-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E23421A4D3E826AC5D9B99EF13DBF06 /* FFSelectPhotoCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = FFSelectPhotoCell.xib; sourceTree = "<group>"; };
+		97712C3E0BF691B88EA1645FFD94DC62 /* ResourceBundle-FFCommonWidget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FFCommonWidget-Info.plist"; sourceTree = "<group>"; };
 		9F60E5939040ACEC392F7BFAA36E721F /* Pods-FFCommonWidget_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFCommonWidget_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A5446C0EA09D8959960A445569EC12A2 /* Pods-FFCommonWidget_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFCommonWidget_Tests-resources.sh"; sourceTree = "<group>"; };
-		ADD1898724408BCE3A81C7CFF85EB4EC /* FFPhotoSelectedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFPhotoSelectedView.h; sourceTree = "<group>"; };
 		AFAC89F3391ECDAAEA6A152F00AF34B0 /* Pods-FFCommonWidget_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFCommonWidget_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BBE847A89B138CA845679FBC571F60D7 /* FFCommonWidget-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFCommonWidget-prefix.pch"; sourceTree = "<group>"; };
-		C0BA9BC1C05404369AD6A1B678F2CA05 /* FFSelectPhotoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFSelectPhotoModel.h; sourceTree = "<group>"; };
+		B07D7EE27CE6B6B5A799A7A9A9870E3C /* FFSelectPhotoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FFSelectPhotoModel.m; sourceTree = "<group>"; };
+		C55555A51725A2316CF884F3EE514F29 /* FFPhotoSelectedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FFPhotoSelectedView.m; sourceTree = "<group>"; };
+		C9BF8AF303ACB6C49C75C5BD654ABD22 /* FFPhotoSelectedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFPhotoSelectedView.h; sourceTree = "<group>"; };
+		CAA29A7A1FBC56B888387DAE97660F6A /* FFSelectPhotoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFSelectPhotoCell.h; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D006A6B3894E4DD77F47F39A9059ED8B /* FFSelectPhotoConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFSelectPhotoConst.h; sourceTree = "<group>"; };
-		D6D4A90522C14EC484A231245D73713D /* FFCommonWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFCommonWidget-dummy.m"; sourceTree = "<group>"; };
+		CFE72DAB2FD6E027823F81969F36C81B /* FFCommonWidget.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFCommonWidget.xcconfig; sourceTree = "<group>"; };
 		D738A37C88B8B5538A052943A1FF02E4 /* Pods-FFCommonWidget_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FFCommonWidget_Tests.modulemap"; sourceTree = "<group>"; };
-		D9302236A7B9F9B4EB7EECC0B4EAD517 /* FFSelectPhotoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFSelectPhotoCell.h; sourceTree = "<group>"; };
-		E0C3FBEBF2EED441035DD05755F88BBF /* FFCommonWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FFCommonWidget.modulemap; sourceTree = "<group>"; };
 		E2DA5CDBAF2EA884C1925EEE89F19F92 /* Pods-FFCommonWidget_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFCommonWidget_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E62F2C8BF1DB590A8DE557CA3485F4E2 /* Pods-FFCommonWidget_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFCommonWidget_Tests-dummy.m"; sourceTree = "<group>"; };
 		E84097407227AE83CE10558509F39BC6 /* Pods_FFCommonWidget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFCommonWidget_Example.framework; path = "Pods-FFCommonWidget_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8507C426CA27F86C8840C8FDC70DC8A /* FFSelectPhotoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FFSelectPhotoModel.m; sourceTree = "<group>"; };
+		EE622366FB42DAC6CDE75AF8F91FDD99 /* FFSelectPhotoConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFSelectPhotoConst.h; sourceTree = "<group>"; };
 		F36280EA4FA791268ADD0E7F9B8A742D /* Pods-FFCommonWidget_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFCommonWidget_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F42E1337FAFEC045CB9CAFB46585C25A /* FFCommonWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FFCommonWidget.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,21 +129,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		056488C6A300FE52EB0FF970BC8E49A7 /* FFCommonWidget */ = {
+		17454425B8381F23C08BF049EE3050DB /* FFPhotoSelected */ = {
 			isa = PBXGroup;
 			children = (
-				5CFD1F9955BFA3385477A2DD3F8C65D7 /* FFCommonWidget */,
-				E1F488B3328BF5065B89283B89E5E8D3 /* Resources */,
-				47B5D9068BBBA93AD7C65603D99FE4E5 /* Support Files */,
+				C9BF8AF303ACB6C49C75C5BD654ABD22 /* FFPhotoSelectedView.h */,
+				C55555A51725A2316CF884F3EE514F29 /* FFPhotoSelectedView.m */,
+				CAA29A7A1FBC56B888387DAE97660F6A /* FFSelectPhotoCell.h */,
+				2FAEE864398E2D1663833011DEFCC128 /* FFSelectPhotoCell.m */,
+				3AA58634A1EFD2C1A48EBA7439DF2A4A /* FFSelectPhotoCell.xib */,
+				EE622366FB42DAC6CDE75AF8F91FDD99 /* FFSelectPhotoConst.h */,
+				644C0A808AA1412C042871449F77F8C5 /* FFSelectPhotoModel.h */,
+				B07D7EE27CE6B6B5A799A7A9A9870E3C /* FFSelectPhotoModel.m */,
+			);
+			name = FFPhotoSelected;
+			path = FFPhotoSelected;
+			sourceTree = "<group>";
+		};
+		39D14901834290C05430444701092635 /* FFCommonWidget */ = {
+			isa = PBXGroup;
+			children = (
+				CD7E6840DB627AF9710A016935A8BE93 /* Assets */,
+			);
+			name = FFCommonWidget;
+			path = FFCommonWidget;
+			sourceTree = "<group>";
+		};
+		4039D2841B46B452B3641CCA2E644763 /* FFCommonWidget */ = {
+			isa = PBXGroup;
+			children = (
+				BFD22BA3062211E238764F7C59B60CAD /* FFPhotoSelected */,
+				C0425E041E68C9C592951989100CA049 /* Resources */,
+				AA1CBC901FC5A108596394DCD6B4D345 /* Support Files */,
 			);
 			name = FFCommonWidget;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3DD30F3AF3698F93910FFED56FCDF841 /* FFCommonWidget */ = {
+		447A3D4320D61914DE44DDB6BC9A52B2 /* FFCommonWidget */ = {
 			isa = PBXGroup;
 			children = (
-				99A98AC13E063999A2D17649686C1A78 /* Assets */,
+				7B58FB8C142D8F9BC93CBF6CEE4CB82A /* Classes */,
 			);
 			name = FFCommonWidget;
 			path = FFCommonWidget;
@@ -167,30 +192,6 @@
 			path = "Target Support Files/Pods-FFCommonWidget_Example";
 			sourceTree = "<group>";
 		};
-		47B5D9068BBBA93AD7C65603D99FE4E5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E0C3FBEBF2EED441035DD05755F88BBF /* FFCommonWidget.modulemap */,
-				33D1F0F8F2817C6885B4920A4B2EDFE4 /* FFCommonWidget.xcconfig */,
-				D6D4A90522C14EC484A231245D73713D /* FFCommonWidget-dummy.m */,
-				BBE847A89B138CA845679FBC571F60D7 /* FFCommonWidget-prefix.pch */,
-				6DEF75119FDEB06B1E62D95DAB933899 /* FFCommonWidget-umbrella.h */,
-				23B6715F1CD900AE6D5747C9F6C0A367 /* Info.plist */,
-				27562235521EF6731DCE4670E7BF0385 /* ResourceBundle-FFCommonWidget-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FFCommonWidget";
-			sourceTree = "<group>";
-		};
-		5CFD1F9955BFA3385477A2DD3F8C65D7 /* FFCommonWidget */ = {
-			isa = PBXGroup;
-			children = (
-				7BC8E38C9D970C0366C128849CC0C49F /* Classes */,
-			);
-			name = FFCommonWidget;
-			path = FFCommonWidget;
-			sourceTree = "<group>";
-		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,10 +200,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7BC8E38C9D970C0366C128849CC0C49F /* Classes */ = {
+		7B58FB8C142D8F9BC93CBF6CEE4CB82A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D839395D424B7CF113702E38C9BC78B4 /* FFPhotoSelected */,
+				17454425B8381F23C08BF049EE3050DB /* FFPhotoSelected */,
 			);
 			name = Classes;
 			path = Classes;
@@ -231,20 +232,24 @@
 		8850FFE3B90643881EA5E099F273EA4A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				056488C6A300FE52EB0FF970BC8E49A7 /* FFCommonWidget */,
+				4039D2841B46B452B3641CCA2E644763 /* FFCommonWidget */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		99A98AC13E063999A2D17649686C1A78 /* Assets */ = {
+		AA1CBC901FC5A108596394DCD6B4D345 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				37D55DED12720A90123CA40266262436 /* gaga_uploadPhoto.png */,
-				70288CAECB6C73A17F91BA9A8F99D70B /* gaga_uploadPhoto@2x.png */,
-				399E6475456D7AB1CFCD4033F716999E /* gaga_uploadPhoto@3x.png */,
+				F42E1337FAFEC045CB9CAFB46585C25A /* FFCommonWidget.modulemap */,
+				CFE72DAB2FD6E027823F81969F36C81B /* FFCommonWidget.xcconfig */,
+				5DCB8889934AF40D5CD8A0D7F12E2DB2 /* FFCommonWidget-dummy.m */,
+				64BF6300B7E037A7772368CA83556420 /* FFCommonWidget-prefix.pch */,
+				5340CB50130AE10BD13ACD01E7D3A43E /* FFCommonWidget-umbrella.h */,
+				2F1C17918FA81C0373E20ACF8F0AF077 /* Info.plist */,
+				97712C3E0BF691B88EA1645FFD94DC62 /* ResourceBundle-FFCommonWidget-Info.plist */,
 			);
-			name = Assets;
-			path = Assets;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FFCommonWidget";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -255,28 +260,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D839395D424B7CF113702E38C9BC78B4 /* FFPhotoSelected */ = {
+		BFD22BA3062211E238764F7C59B60CAD /* FFPhotoSelected */ = {
 			isa = PBXGroup;
 			children = (
-				ADD1898724408BCE3A81C7CFF85EB4EC /* FFPhotoSelectedView.h */,
-				7905B4A8A13138964B5C496AD920D422 /* FFPhotoSelectedView.m */,
-				D9302236A7B9F9B4EB7EECC0B4EAD517 /* FFSelectPhotoCell.h */,
-				67A2F55F144A445600377CE44CFF7EED /* FFSelectPhotoCell.m */,
-				9E23421A4D3E826AC5D9B99EF13DBF06 /* FFSelectPhotoCell.xib */,
-				D006A6B3894E4DD77F47F39A9059ED8B /* FFSelectPhotoConst.h */,
-				C0BA9BC1C05404369AD6A1B678F2CA05 /* FFSelectPhotoModel.h */,
-				E8507C426CA27F86C8840C8FDC70DC8A /* FFSelectPhotoModel.m */,
+				447A3D4320D61914DE44DDB6BC9A52B2 /* FFCommonWidget */,
 			);
 			name = FFPhotoSelected;
-			path = FFPhotoSelected;
 			sourceTree = "<group>";
 		};
-		E1F488B3328BF5065B89283B89E5E8D3 /* Resources */ = {
+		C0425E041E68C9C592951989100CA049 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3DD30F3AF3698F93910FFED56FCDF841 /* FFCommonWidget */,
+				39D14901834290C05430444701092635 /* FFCommonWidget */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		CD7E6840DB627AF9710A016935A8BE93 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3C7ACB3C6B98B2057463FF349D36E3D2 /* gaga_uploadPhoto.png */,
+				0EE87E455FA2F4178DA8BAA18A65C5A2 /* gaga_uploadPhoto@2x.png */,
+				308AA5608A7D53498E602C548454B68F /* gaga_uploadPhoto@3x.png */,
+			);
+			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		E2D3C2C7707C19EE83059F85E943EC6E /* Pods-FFCommonWidget_Tests */ = {
@@ -554,7 +562,7 @@
 		};
 		35C2D34FA47150F6CB2CD0956532D8FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33D1F0F8F2817C6885B4920A4B2EDFE4 /* FFCommonWidget.xcconfig */;
+			baseConfigurationReference = CFE72DAB2FD6E027823F81969F36C81B /* FFCommonWidget.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FFCommonWidget";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -615,7 +623,7 @@
 		};
 		5CC79AF5CC13D3DD9015B68875015D46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33D1F0F8F2817C6885B4920A4B2EDFE4 /* FFCommonWidget.xcconfig */;
+			baseConfigurationReference = CFE72DAB2FD6E027823F81969F36C81B /* FFCommonWidget.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -681,7 +689,7 @@
 		};
 		7D607622E6B238D9F078362E63E55D72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33D1F0F8F2817C6885B4920A4B2EDFE4 /* FFCommonWidget.xcconfig */;
+			baseConfigurationReference = CFE72DAB2FD6E027823F81969F36C81B /* FFCommonWidget.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FFCommonWidget";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -733,7 +741,7 @@
 		};
 		9F036570F456B978E534317176D1781C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33D1F0F8F2817C6885B4920A4B2EDFE4 /* FFCommonWidget.xcconfig */;
+			baseConfigurationReference = CFE72DAB2FD6E027823F81969F36C81B /* FFCommonWidget.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
