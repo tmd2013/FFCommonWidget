@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFCommonWidget'
-  s.version          = '0.1.7'
-  s.summary          = '选择照片'
+  s.version          = '0.1.9'
+  s.summary          = '我的常用分类'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-修复bundle和图片找不到bug
+我的常用分类 nsstring分类
                        DESC
 
   s.homepage         = 'https://github.com/tmd2013/FFCommonWidget'
@@ -31,9 +31,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   # s.source_files = 'FFCommonWidget/Classes/**/*'
-  s.subspec 'FFPhotoSelected' do |p|
-        p.source_files = 'FFCommonWidget/Classes/FFPhotoSelected/**.*'
-        p.resource = "FFCommonWidget/Classes/FFPhotoSelected/FFSelectPhotoCell.xib"
+  s.subspec 'FFCategory' do |c|
+        c.source_files = 'FFCommonWidget/Classes/FFCategory/**.*'
+        
     end
   
   s.resource_bundles = {
