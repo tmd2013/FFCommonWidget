@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFCommonWidget'
-  s.version          = '0.1.9'
+  s.version          = '0.2.0'
   s.summary          = '我的常用分类'
 
 # This description is used to generate tags and improve search results.
@@ -36,9 +36,9 @@ Pod::Spec.new do |s|
         
     end
   
-  s.resource_bundles = {
-     'FFCommonWidget' => ['FFCommonWidget/Assets/*.png']
-   }
+  # s.resource_bundles = {
+  #    'FFCommonWidget' => ['FFCommonWidget/Assets/*.png']
+  #  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
