@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFCommonWidget'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = '我的常用分类'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-我的常用分类 nsstring分类
+我的常用分类 nsstring分类 nadate分类
                        DESC
 
   s.homepage         = 'https://github.com/tmd2013/FFCommonWidget'
